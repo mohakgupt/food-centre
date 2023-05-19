@@ -14,6 +14,7 @@ export default function Home() {
       </div>
       <div className='app-data'>
         <div className='pill'></div>
+        <h3>Food Centre</h3>
       </div>
     </main>
   )

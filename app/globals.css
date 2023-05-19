@@ -15,8 +15,9 @@ body{
 }
 .app-profile{
   transform: translateY(-20px);
-  font-weight: 700;
+  font-weight: 500;
   padding: 1em;
+  font-size: small;
 }
 .app-dp{
   float: left;
@@ -28,6 +29,7 @@ body{
 .app-profile span{
   font-size: large;
   display: inline-block;
+  margin-top: 5px;
 }
 .app-data{
   background-color: #28333A;
@@ -35,7 +37,8 @@ body{
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   transform: translateY(-20px);
-  padding: 10px;
+  padding: 2em;
+  padding-top: 10px;
 }
 .pill{
   width: 50px;
