@@ -2,6 +2,7 @@ import dp from '../public/assets/dp.png'
 import Image from 'next/image'
 import data from '../public/data.json'
 import Dishes from '@components/dishes'
+import Coupon from '@components/coupon'
 
 export default function Home() {
   return (
@@ -22,6 +23,19 @@ export default function Home() {
             return <Dishes ctg={ctg} key={ctg.id}/>
           })}
         </div>
+        <h2>Meals Coupon</h2>
+        <div className='space'>
+          <div className='hori-scroll'>
+            <div className="coupon-banner">
+              27th JAN - 18th FEB <br/>
+              UPTO<br/>25% OFF
+            </div>
+            {["Chinese", "Indian", "Korean"].map((cty)=>{
+              return <Coupon cty={cty}/>
+            })}
+          </div>
+        </div>
+        <button className='order'>Order Now</button>
       </div>
     </main>
   )

@@ -34,7 +34,6 @@ body{
 }
 .app-data{
   background-color: #28333A;
-  height: 1000px;
   width: 100vw;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
@@ -87,7 +86,7 @@ body{
 }
 .plus{
   text-align: center;
-  width: 100px;
+  width: 50px;
   display: inline-block;
   transform: scale(3);
 }
@@ -100,4 +99,42 @@ body{
 }
 .dishes-box{
   margin-top: 2em;
+}
+.hori-scroll{
+  position: absolute;
+  align-items: center;
+  background-color: #0D1317;
+  display: flex;
+  overflow-x: auto;
+  left: 0;
+  font-size: large;
+  line-height: 2em;
+}
+.hori-scroll div{
+  flex: none;
+}
+.cpn-box{
+  margin: 1em;
+  padding: 1em;
+  border-radius: 1em;
+  background-color: #415663;
+}
+.cpn-price{
+  font-size: large;
+}
+.cpn-dst{
+  font-size: small;
+}
+.space{
+  height: 200px;
+}
+.order{
+  margin: 0.5em;
+  border-radius: 1em;
+  background-color: #D15439;
+  color: #ffffff;
+  width: 22em;
+  height: 3em;
+  font-size: large;
+  font-weight: 700;
 }
