@@ -1,11 +1,14 @@
-import React from 'react'
+import Dish from "./dish"
 
-function dishes({ctg}) {
+function Dishes({ctg}) {
   return (
-    <div>
-        <h3>{ctg.title}</h3>
+    <div className="dishes-box">
+        <h2>{ctg.title}<span className='tag'>{ctg.tag}</span></h2>
+        {ctg.dishes.map((dsh)=>{
+            return <Dish dsh={dsh}/>
+        })}
     </div>
   )
 }
 
-export default dishes
+export default Dishes

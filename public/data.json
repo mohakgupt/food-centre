@@ -1,13 +1,23 @@
 [
     {
         "id":1,
-        "title": "noodles",
+        "title": "Noodles",
         "tag": "Chinese",
         "dishes":[
             {
                 "id":1,
                 "title":"Dandan Noodles",
-                "image":"../public/assets/dandan_noodles.png"
+                "image":"/../public/assets/dandan_noodles.png"
+            },
+            {
+                "id":2,
+                "title":"Dandan Noodles",
+                "image":"/../public/assets/chowmein.png"
+            },
+            {
+                "id":3,
+                "title":"Dandan Noodles",
+                "image":"/../public/assets/lomein.png"
             }
         ]
     },
@@ -19,7 +29,7 @@
             {
                 "id":1,
                 "title":"Hyderabadi",
-                "image":"../public/assets/hyderabadi.png"
+                "image":"/../public/assets/hyderabadi.png"
             }
         ]
     }

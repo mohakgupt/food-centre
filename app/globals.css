@@ -50,3 +50,54 @@ body{
   margin: 0 auto;
   border-radius: 2.5px;
 }
+.tag{
+  background-color: #D15439;
+  border-radius: 5px;
+  margin-left: 2em;
+  padding: 2px 10px;
+  font-size: smaller;
+  font-weight: 400;
+}
+.dish-box{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:#415663;
+  padding: 1em;
+  border-radius: 1em;
+  margin-bottom: 2em;
+}
+.dish-dp{
+  clip-path: circle(40px at center);
+}
+.dish-2 ,.dish-3{
+  /* padding-top: 1em; */
+  font-weight: 500;
+  line-height: 2em;
+}
+.dish-title{
+  font-size: larger;
+}
+.dot{
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: #D15439;
+  display: inline-block;
+}
+.plus{
+  text-align: center;
+  width: 100px;
+  display: inline-block;
+  transform: scale(3);
+}
+.kcal{
+  background-color: #0D1317;
+  border-radius: 15px;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+}
+.dishes-box{
+  margin-top: 2em;
+}

@@ -1,14 +1,14 @@
 import dp from '../public/assets/dp.png'
 import Image from 'next/image'
 import data from '../public/data.json'
-import dishes from '@components/dishes'
+import Dishes from '@components/dishes'
 
 export default function Home() {
   return (
     <main>
       <div className='app-bg'>
         <div className='app-profile'>
-          <Image src={dp} className='app-dp'></Image>
+          <Image src={dp} className='app-dp' alt='nothing'></Image>
           <span>Bharadwaj Centre</span>
           <br/>
           Food Influencer
@@ -16,10 +16,10 @@ export default function Home() {
       </div>
       <div className='app-data'>
         <div className='pill'></div>
-        <h3>Food Centre</h3>
+        <h2>Food Centre</h2>
         <div className='menu'>
           {data.map((ctg)=>{
-            return <dishes ctg={ctg} key={ctg.id}/>
+            return <Dishes ctg={ctg} key={ctg.id}/>
           })}
         </div>
       </div>
