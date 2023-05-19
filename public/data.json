@@ -11,12 +11,12 @@
             },
             {
                 "id":2,
-                "title":"Dandan Noodles",
+                "title":"Chow Mein",
                 "image":"/../public/assets/chowmein.png"
             },
             {
                 "id":3,
-                "title":"Dandan Noodles",
+                "title":"Lo Mein",
                 "image":"/../public/assets/lomein.png"
             }
         ]
@@ -30,6 +30,16 @@
                 "id":1,
                 "title":"Hyderabadi",
                 "image":"/../public/assets/hyderabadi.png"
+            },
+            {
+                "id":2,
+                "title":"Lucknowi",
+                "image":"/../public/assets/lucknowi.png"
+            },
+            {
+                "id":3,
+                "title":"Kolkata",
+                "image":"/../public/assets/kolkata.png"
             }
         ]
     }
