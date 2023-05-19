@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "title": "noodles",
+        "tag": "Chinese",
+        "dishes":[
+            {
+                "id":1,
+                "title":"Dandan Noodles",
+                "image":"../public/assets/dandan_noodles.png"
+            }
+        ]
+    },
+    {
+        "id":2,
+        "title": "Biryani",
+        "tag": "Indian",
+        "dishes":[
+            {
+                "id":1,
+                "title":"Hyderabadi",
+                "image":"../public/assets/hyderabadi.png"
+            }
+        ]
+    }
+]
